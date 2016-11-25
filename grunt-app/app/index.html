@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <meta charset="UTF-8">
+  <title ng-bind="pageTitle"></title>
+  <!-- build:css styles/main.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+  <!-- endbower -->
+  <link rel="stylesheet" href="styles/css/main.css"/>
+  <!-- endbuild -->
+
+  <!-- build:js scripts/ionic.js -->
+  <script src="bower_components/ionic/js/ionic.bundle.min.js"></script>
+  <!-- endbuild -->
+
+</head>
+
+  <body class="container">
+    <h3> ngSuper Generator </h3>
+    <div ui-view></div>
+  </body>
+
+
+  <!-- build:js scripts/app.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/p5.js/lib/p5.min.js"></script>
+  <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+  <script src="bower_components/restangular/dist/restangular.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <!-- endbower -->
+  <script src="src/core/core.module.js"></script>
+  <script src="src/common/common.module.js"></script>
+  <script src="src/app.module.js"></script>
+  <script src="src/core/restangular.config.js"></script>
+  <script src="src/core/router.config.js"></script>
+  <script src="src/core/httpStatus.constant.js"></script>
+  <script src="src/welcome/welcome.module.js"></script>
+  <script src="src/welcome/welcome.controller.js"></script>
+  <!-- endbuild -->
+
+</html>
